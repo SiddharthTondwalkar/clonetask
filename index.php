@@ -44,7 +44,7 @@ include('header.php')
       <?php } ?>
     </div><br>
     <div class=" col-2 mx-auto ">
-      <button type="button" class="btn btn-dark ">Load more</button>
+      <button type="button" class="btn btn-dark "><a href="portfolio.php"> Load more</a></button>
     </div>
   </section><br><br>
 
