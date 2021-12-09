@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&family=Playfair+Display:ital,wght@1,500&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -9,6 +11,7 @@
   font-family: 'Baloo Bhaijaan 2', cursive;
 
 }
+/* nav css */
 
 .navbar{
   background-color: burlywood !important;
@@ -29,7 +32,7 @@
 .nav-link:hover{
   color: white;
 }
-
+ /* header css */
 .profile{
   display: flex;
   justify-content: space-around;
@@ -38,17 +41,51 @@
   /* border-radius: 90px; */
   clip-path: circle(28.3% at 49% 38%);
 }
+
 .line{
   border-right:  solid black ;
 
 }
+
 .left{
   text-align: right;
   
 }
 
+ ul li{
+  cursor:pointer !important;
+  list-style: none;
+}
+
+.title-bg{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTahYztqJn-1cjF8_3FztlqjHyyMrQn7AYtkQ&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 10em;
+}
+/* services css */
+.services_card{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTahYztqJn-1cjF8_3FztlqjHyyMrQn7AYtkQ&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.services_card_text{
+
+  text-align: center !important;
+
+}
+
+.contact-title{
+  font-family: 'Baloo Bhaijaan 2', cursive;
+font-family: 'Playfair Display', serif;
+}
+
+/* footer css */
 .footer{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+  
 }
